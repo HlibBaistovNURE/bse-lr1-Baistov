@@ -22,15 +22,8 @@ Touch-Up-Smart
 
 ## Встановлення та запуск
 
-```bash
-
-git clone https://github.com/HlibBaistovNURE/bse-lr1-Baistov.git
-
-cd bse-lr1-Baistov
-
-node main.js
-
-```
+Щоб запустити код, введіть команду:
+`node index.js`
 
 ## Ліцензія
 
