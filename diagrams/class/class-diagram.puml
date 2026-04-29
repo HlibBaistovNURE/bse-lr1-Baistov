@@ -1,0 +1,28 @@
+@startuml
+class User {
+  +int userId
+  +string name
+  +selectCategory()
+  +saveFavorite()
+}
+
+class FactCard {
+  +int factId
+  +string content
+  +string category
+}
+
+class RecommendationService {
+  +generateFact()
+  +getOfflineData()
+}
+
+class CacheManager {
+  +saveToCache()
+  +loadFromCache()
+}
+
+User "1" -- "0..*" FactCard : saves
+RecommendationService --> FactCard : creates
+RecommendationService ..> CacheManager : uses
+@enduml
