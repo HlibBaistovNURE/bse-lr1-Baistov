@@ -4,7 +4,7 @@
 
 ## Автор
 - **Баістов Гліб**, група ПЗПІ-25-4
-- Email: hlib.baistov@nure.ua
+-  Email: hlib.baistov@nure.ua
 
 ---
 
