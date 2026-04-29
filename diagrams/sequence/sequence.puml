@@ -1,0 +1,13 @@
+@startuml
+actor User
+boundary "Interface" as UI
+control "Service" as Service
+database "Database/Cache" as DB
+
+User -> UI : Клік на "Отримати факт"
+UI -> Service : requestRandomFact()
+Service -> DB : fetchData()
+DB --> Service : data
+Service --> UI : showFact(data)
+UI --> User : Відображення на екрані
+@enduml
