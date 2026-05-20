@@ -1,16 +1,11 @@
 {
-  "name": "opi",
+  "name": "touch-up-smart",
   "version": "1.0.0",
-  "description": "lab1",
-  "main": "index.js",
+  "description": "Recommendation Service Tests",
   "scripts": {
-  "test": "jest --coverage"
-},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
     "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
   }
 }
