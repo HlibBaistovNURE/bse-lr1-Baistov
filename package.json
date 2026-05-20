@@ -1,0 +1,16 @@
+{
+  "name": "opi",
+  "version": "1.0.0",
+  "description": "lab1",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest --coverage"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "test": "jest --coverage"
+  }
+}
